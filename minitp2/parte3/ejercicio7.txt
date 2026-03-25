@@ -1,0 +1,12 @@
+monto = 900
+es_cliente_vip = False
+tiene_cupon = True
+
+if monto > 1000 and es_cliente_vip or tiene_cupon:
+    print("Se aplica descuento")
+else:
+    print("No hay descuento")
+
+En este caso se va a imprimir en pantalla el mensaje "Se aplica descuento"
+por el orden de ejecucion, monto es menor a 1000 y el cliente no es vip por lo que eso da falso
+pero tiene cupon asi que la condicion es verdadera.

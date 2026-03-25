@@ -1,0 +1,7 @@
+Diseñar un algoritmo que determine si una persona puede entrar a un evento.
+
+Preguntar por edad
+Preguntar si trae documento
+
+Si la edad es mayor a 18 y trae documento lo dejo pasar
+Si no no pasa

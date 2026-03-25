@@ -1,0 +1,1 @@
+print(f"en 42 minutos y 42 segundas hay {42*60+42} segundos")

@@ -1,0 +1,7 @@
+Diseñar un algoritmo que indique qué ropa usar según la temperatura.
+
+Preguntar por la temperatura
+
+Si la temperatura es menor a 10 llevar abrigo
+Si no si la temperatura es menor a 20 llevar ropa media
+Si no llevar ropa liviana
