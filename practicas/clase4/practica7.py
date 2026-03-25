@@ -9,9 +9,9 @@ for i in menu:
     print(f"-{i}")
 print("Termine su pedido con Terminar pedido")
 while opcion != "terminar pedido":
+    opcion = input("Escriba la comida que quieras agregar al pedido: ").lower()
     for i in (menu):
         pidio=False
-        opcion = input("Escriba la comida que quieras agregar al pedido: ").lower()
         if opcion == i:
             print(f"Excelente! Agregamos un/a {i} a tu pedido")
             posicion=0
@@ -22,9 +22,10 @@ while opcion != "terminar pedido":
             pidio=True
         elif opcion == "terminar pedido":
             print("Cerrando pedido")
+            pidio=True
             break
-        elif not pidio:
-            print(f"Lo siento, no tenemos {opcion}, prueba con otra cosa")
+    if not pidio:
+        print(f"Lo siento, no tenemos {opcion}, prueba con otra cosa")
 
 if total!=0:
     print(f"Pedido finalizado, su total es {total}$, gracias por confiar en nosotros")

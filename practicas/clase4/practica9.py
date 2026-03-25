@@ -1,0 +1,2 @@
+comidas=["pizza","empanada","hamburguesa"]
+
