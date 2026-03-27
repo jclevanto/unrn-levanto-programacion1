@@ -1,2 +1,1 @@
-comidas=["pizza","empanada","hamburguesa"]
-
+#hacer una lista de compras con append de 5 elementos o menos con inputs
