@@ -1,0 +1,1 @@
+#con archivo.seek(0) puedo leer de nuevo el archivo
