@@ -1,11 +1,11 @@
 flotante = input("Ingrese su numero flotante con un punto: ")
 
-posi = -1
+posi = 0
 todo_ok = True
 
 for indice, i in enumerate(flotante):
     if i == ".":
-        if posi != -1:
+        if posi != 0:
             todo_ok = False
             break
         posi = indice
