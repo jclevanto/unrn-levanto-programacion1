@@ -1,7 +1,7 @@
 def camello(texto):
     lista=texto.split()
     final=""
-    final+=lista[0]
+    final+=lista[0].lower()
     for palabra in lista[1:]:
         final+=" " + palabra.capitalize()
     print(final)
