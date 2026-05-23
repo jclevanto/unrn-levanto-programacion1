@@ -1,0 +1,12 @@
+1) Es importante validar los datos que ingresa el usuario para asegurar un correcto 
+funcionamiento de nuestro programa y evitar errores
+2.1) La funcion strip elimina el/los primer/os y el/los ultimo/s caracter/es de un string en 
+caso de ser el/los que se espacifican en el argumento de la funcion, o el espacio en caso de no 
+especificar ninguno
+2.2) La funcion split convierte un string en una lista, separando segun el caracter del argumento
+3) Count podria servir para validar que el usuario ingrese la cantidad correcta 
+de datos que le pedimos separados por el caracter del argumento por ejemplo
+4) Los espacios de mas al principio o al final de un dato podrian traer problemos a la hora de 
+verificar, si hay un espacio y una mayuscula al principio la funcion capitalize no serviria 
+para normalizar ese dato, y si se pidiese un numero de telefono por ejemplo, se esperan 10 
+caracteres y los espacios causarian errores

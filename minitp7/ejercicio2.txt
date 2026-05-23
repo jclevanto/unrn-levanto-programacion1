@@ -1,0 +1,26 @@
+linea = " mara ; programacion ; 8 "
+
+partes = linea.split(";")
+nombre = partes[0].strip().capitalize()
+materia = partes[1].strip().capitalize()
+nota_texto = partes[2].strip()
+
+if nota_texto.isnumeric():
+    nota = int(nota_texto)
+    print(f"{nombre} cursa {materia} y obtuvo {nota}")
+else:
+    print("La nota no es valida")
+
+Para orientar la explicacion:
+
+    ¿Que queda guardado en partes?
+    ¿Por que se usa strip antes de capitalize?
+    ¿Que dato se esta validando antes de convertirlo?
+    ¿Que imprimiria el programa si en lugar de 8 viniera ocho?
+
+    El objetivo de este codigo es mostrar en pantalla el nombre del alumno y que nota obtuvo en una materia
+para esto, el string con todos los datos se separa en una lista, separando los datos por los ; y dejandolos 
+como estan originalmente (partes=[' mara ',' programacion ',' 8 ']), para luego pasar a un normalizado, eliminando
+los espacios al principio y al final de cada dato, y poniendo el primer caracter en mayusucla y el resto en 
+minuscula tanto para el nombre como para la materia. Antes de enviar el mensaje final se verifica que la nota 
+sea efectivamente un numero antes de pasarlo a un entero, y en caso de no serlo se envia un mensaje de error.
