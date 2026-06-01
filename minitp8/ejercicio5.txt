@@ -1,0 +1,39 @@
+¿Qué hace el programa?
+¿Qué hace la función limpiar?
+¿Qué hace la función es_valido?
+¿Qué nombres quedan almacenados en validos?
+¿Qué imprime el programa al finalizar?
+
+def limpiar(texto):
+    return texto.strip().capitalize()
+
+def es_valido(nombre):
+    if len(nombre) >= 3:
+        return True
+    return False
+
+nombres = [" bart ", "ED", " walter", "rick "]
+validos = []
+
+for nombre in nombres:
+    nombre_limpio = limpiar(nombre)
+
+    if es_valido(nombre_limpio):
+        validos.append(nombre_limpio)
+
+print(validos)
+
+1. El programa recibe una lista de nombres, los normaliza dejando la primer letra en mayuscula 
+y el resto en minuscula luego de eliminar los espacios en blanco al principio y al final.
+Luego combrueba que esos nombres contengan 3 o mas letras, y en caso de ser verdadero lo agrega 
+a una lista, en caso de ser falso pasa al siguiente. Imprimiendo la lista de nombres validos normalizados
+al finalizar.
+
+2. La funcion limpiar es la encargada de eliminar los espacios vacios al principio y al final
+y de dejar la primer letra en mayuscula y el resto en minuscula.
+
+3. La funcion es valido comprueba si el nombre contiene mas de 2 letras.
+
+4. Quedan almacenados los nombres de Bart, Walter y Rick.
+
+5. El programa imprime la lista de los nombres [´Bart´, ´Walter´, 'Rick´]

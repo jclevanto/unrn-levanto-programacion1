@@ -1,0 +1,4 @@
+Una lista es un tipo de dato que contiene otros datos, se pueden agregar datos y estos pueden mutar
+Un tupla es un tipo de dato similar a la lista, los datos no pueden mutar
+Un conjunto es un tipo de dato muy similar a la lista con la particularidad de no permitir elementos repetidos y no estar ordenada
+Un diccionario es un tipo de dato similar a la lista, con la particularidad de que cada dato tiene se key y su valor
