@@ -1,0 +1,5 @@
+homero;permitido
+lisa;permitido
+bart;denegado
+maggie;permitido
+flanders;error
